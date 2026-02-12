@@ -36,5 +36,8 @@ class Linear_Regression():
     def my(self):
         return
 
+    def my(self):
+        return
+
     def predict(self, X):
         return np.dot(X, self.w) + self.b
