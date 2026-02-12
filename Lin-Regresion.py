@@ -30,5 +30,8 @@ class Linear_Regression():
         self.w -= self.learning_rate * dw
         self.b -= self.learning_rate * db
 
+    def my(self):
+        return
+
     def predict(self, X):
         return np.dot(X, self.w) + self.b
